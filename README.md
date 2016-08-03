@@ -29,7 +29,7 @@ QuickStart
 
 4. Run the script
 
-        ./r53dyndns.py -U http://www.whatismyip.com/ -R example.domain.com
+        ./r53dyndns.py -U https://icanhazip.com/ -R example.domain.com
 
 
 Running as a 'Service'
@@ -45,7 +45,7 @@ system.
         export AWS_ACCESS_KEY_ID=""
         export AWS_SECRET_ACCESS_KEY=""
         export AWS_CONNECTION_REGION="us-east-1"
-        /var/opt/route-53-dyndns/r53dyndns.py -U http://www.whatismyip.com/ -R example.domain.com
+        /var/opt/route-53-dyndns/r53dyndns.py -U https://icanhazip.com/ -R example.domain.com
 
 2. Create a calling script
 
